@@ -1,0 +1,7 @@
+n = int(input('digite um numero ate 9999 para saber as suas unidades: ')).strip()
+p= str(n)
+print('o numero tem: ')
+print('{} milhares'.format(p[0]))
+print('{} centenas'.format(p[1]))
+print('{} dezenas'.format(p[2]))
+print('{} unidades'.format(p[3]))
