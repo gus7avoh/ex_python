@@ -1,10 +1,10 @@
 print('Calculadora')
-print('digite qual tipo de operação deseja realizar')
+print('Digite qual tipo de operação deseja realizar')
 
-n1=int(input('primeiro numero: '))
-operacao=input('igite qual tipo de operação deseja realizar (+,-,*,/) ? ')
+n1=int(input('Primeiro numero: '))
+operacao=input('Digite qual tipo de operação deseja realizar (+,-,*,/) ? ')
 
-n2=int(input("digite o segundo numero: "))
+n2=int(input("Digite o segundo numero: "))
 
 resultado=0
 
