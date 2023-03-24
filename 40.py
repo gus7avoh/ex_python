@@ -1,3 +1,7 @@
-for c in range(1, 5):
-    i= int(input('digite um numero : '))
-print (i)
+import time 
+delay = 1
+
+for c in range(10, -1, -1):
+    print (c, time.sleep(delay))
+    
+print ('fim')
