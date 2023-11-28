@@ -2,7 +2,7 @@ print('Calculadora')
 print('Digite qual tipo de operação deseja realizar')
 
 n1=int(input('Primeiro numero: '))
-operacao=input('Digite qual tipo de operação deseja realizar (+,-,*,/) ? ')
+operacao=input('Digite qual tipo de operação deseja realizar (+,-,*,/) ? ').strip().lower()
 
 n2=int(input("Digite o segundo numero: "))
 

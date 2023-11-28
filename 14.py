@@ -1,5 +1,5 @@
 import random
-n1= str(input('digite o nuime do primeiro aluino: '))
+n1= str(input('digite o nuime do primeiro aluno: '))
 n2= str(input('digite o nome do segundo aluno: '))
 n3= str(input('digite o nome do terceiro aluno: '))
 n4= str(input('digite o nome do quarto aluno: '))
