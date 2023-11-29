@@ -6,6 +6,8 @@ feminino = []
 uniao = []
 sexos= []
 aa = []
+bb = []
+
 while contador < 4:
 
     nome.append(str(input("\nDigite o nome da pessoa: ")))
@@ -29,6 +31,10 @@ for i in range(4):
 for c in range(4):
    if uniao[c][2] == "mas":
        aa.append(uniao[c])
+
+for c in range(4):
+   if uniao[c][2] == "fem":
+       bb.append(uniao[c])
 
 
 media = sum(idade)/4
