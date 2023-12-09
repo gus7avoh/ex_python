@@ -19,7 +19,7 @@ while jogar == "s":
         jogar = str(input("quer fazer outra coisa?"))
 
     elif v3 == 2:
-        print("\n{}+{}={}".format(v1,v2,v1*v2))
+        print("\n{}X{}={}".format(v1,v2,v1*v2))
         jogar = str(input("quer fazer outra coisa?"))  
 
     elif v3 == 3:
@@ -39,7 +39,7 @@ while jogar == "s":
         print("vl por calcualar")
         jogar = "n"
 else:
-    print("vl por calcualar")
+    print("tudo de bom pra tu")
 
 
 

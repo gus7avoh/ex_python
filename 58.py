@@ -7,4 +7,4 @@ while chute != resposta:
     chute = int(input("tente novamente: "))
 
     erros +=1
-print("\nParabens voce acertou!!!!!!!!!!!\ne para isso voce so precisou chutar {} vezes".format(erros))
+print("\nParabens voce acertou!!!!!!!!!!!\ne para isso voce so precisou errar {} vezes".format(erros))

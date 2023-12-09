@@ -1,54 +1,39 @@
-a = int(input("digite a idade a primeira pessoa "))
-b = int(input("digite a idade a segunda pessoa "))
-c = int(input("digite a idade a tereceira pessoa "))
-d = int(input("digite a idade a quarta pessoa "))
-e = int(input("digite a idade a quinta pessoa "))
-f = int(input("digite a idade a sexta pessoa "))
-g = int(input("digite a idade a setima pessoa "))
-
+a = int(input("digite a idade da primeira pessoa "))
+b = int(input("digite a idade da segunda pessoa "))
+c = int(input("digite a idade da tereceira pessoa "))
+d = int(input("digite a idade da quarta pessoa "))
+e = int(input("digite a idade da quinta pessoa "))
+f = int(input("digite a idade da sexta pessoa "))
+g = int(input("digite a idade da setima pessoa "))
 listama = []
 listame = []
-
-if a >= 18:
+if a >= 21:
     listama.append(a)
 else:
     listame.append(a)
-
-
-if b >= 18:
+if b >= 21:
     listama.append(b)
 else:
     listame.append(b)
-
-
-if c >= 18:
+if c >= 21:
     listama.append(c)
 else:
     listame.append(c)
-
-
-if d >= 18:
+if d >= 21:
     listama.append(d)
 else:
     listame.append(d)
-
-
-if e >= 18:
+if e >= 21:
     listama.append(e)
 else:
     listame.append(e)
-
-
-if f >= 18:
+if f >= 21:
     listama.append(f)
 else:
     listame.append(f)
-
-
-if g >= 18:
+if g >= 21:
     listama.append(g)
 else:
     listame.append(g)
-
 print ("O numero de alumos maiorers de idade eh {}".format(len(listama)))
 print ("O numero de alumos menores de idade eh {}".format(len(listame)))

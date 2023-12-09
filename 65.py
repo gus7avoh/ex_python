@@ -12,8 +12,7 @@ valores_org = sorted(valores)
 
 if valores:
     media = sum(valores) / len(valores)
-    print(valores)
-    print("A média de todos os valores adicionados é: {:2f}".format(media))
+    print("A média de todos os valores adicionados é: {:.2f}".format(media))
     print("O maior valor adicionado é: {}".format(valores_org[-1]))
     print("O menor valor adicionado é: {}".format(valores_org[0]))
 else:

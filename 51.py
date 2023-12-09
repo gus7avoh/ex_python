@@ -18,3 +18,5 @@ while j == "sim":
         j = input("deseja jogar dnv? ")
 else:
     print("ok")
+
+     
