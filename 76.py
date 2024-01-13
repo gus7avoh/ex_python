@@ -9,4 +9,4 @@ for pos in range(0, len(pp)):
         print(f"{pp[pos]:.<30}", end='')
     else:
         print(f"R${pp[pos]:>7.2f}")
-print("-"*40)
+print("-"*40) 

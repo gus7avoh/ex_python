@@ -6,7 +6,4 @@ for palavra in nay:
     if letras_presentes:
         print(f"{palavra} tem {letras_presentes}")
 
-
-
-
 #', '.join(letras_presentes)
