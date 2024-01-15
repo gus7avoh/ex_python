@@ -1,7 +1,6 @@
 print("-"*50)
 print("MEGA CENA".center(50))
 print("-"*50)
-
 from random import randint
 from time import sleep
 pergunta = int(input("Quantos jogos voce vai querer? "))
