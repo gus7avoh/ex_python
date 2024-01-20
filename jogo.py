@@ -1,13 +1,8 @@
 from random import choice 
-
 lista = ["pedra","papel","tesoura"]
-
 q = str(input("deseja jogar? ")).lower().strip()
-
-while True:
-    
+while True:  
     r = str(input('Digite a sua escolha, "pedra","papel" ou "tesoura": ')).strip().lower()
-
     if r == "pedra":
         while True:
             a = choice(lista)
@@ -17,7 +12,6 @@ while True:
             if a == "tesoura":
                 print("\033[1;34m A maquina jogou {} e voce venceu!!!\033[m".format(a) )
                 break
-
     elif r == "papel":
         while True:
             a = choice(lista)
@@ -26,8 +20,7 @@ while True:
             r = str(input('Digite a sua escolha, "pedra","papel" ou "tesoura": ')).strip().lower()
             if a == "pedra":
                 print("\033[1;34m A maquina jogou {} e voce venceu!!!\033[m".format(a) )
-                break
-        
+                break 
     elif r == "tesoura":
         while True:
             a = choice(lista)
@@ -36,11 +29,9 @@ while True:
             r = str(input('Digite a sua escolha, "pedra","papel" ou "tesoura": ')).strip().lower()
             if a == "papel":
                 print("\033[1;34m A maquina jogou {} e voce venceu!!!\033[m".format(a) )
-                break
-                  
+                break            
     if q != "s" and q != "sim":
         break
-
 print("Obrigado por jogar!!!!")
 
 

@@ -1,6 +1,5 @@
 from random import choice, randint
 import os
-
 sup = True
 while sup == True:
     new = True
@@ -451,12 +450,9 @@ while sup == True:
                 pergunta = str(input("Quer jogar outro jogo? "))
                 if pergunta in ["s", "ss", "sim"]:
                     new = False
-    
                 elif pergunta not in ["s", "ss", "sim"]:
                     sup = False
                     new = False
-    
-
             else:
                 pergunta = str(input("Quer jogar outro jogo? "))
                 if pergunta in ["s", "ss", "sim"]:
