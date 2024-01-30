@@ -17,3 +17,4 @@ organizada = sorted(biblioteca.items(), key=lambda x: x[1], reverse=True)
 
 for k, v in organizada:
     print(f"O {k} tirou: {v}")
+print(f"\nO vencedor foi O {organizada[0][0]}")
