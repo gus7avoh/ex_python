@@ -1,8 +1,7 @@
-def texto():
-    txt = str(input("digite o texto: "))
+def texto(txt):   
     print("="*len(txt))
     print(txt)
     print("="*len(txt))
     
-
-texto()
+a = str(input("digite o texto: "))
+texto(a)

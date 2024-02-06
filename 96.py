@@ -6,6 +6,3 @@ def area():
 
 
 area()
-print()
-
-area()

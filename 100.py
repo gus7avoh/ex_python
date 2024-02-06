@@ -8,7 +8,7 @@ def sorteia():
 
 def somaPar(*nume):
     soma = []
-    i = list(nume) 
+    i = list(nume) #Quando eu peço para o sistema receber os valores da tabela, eles são inseridos em uma tupla, ent preciso converter.
     for num in i:
         if num % 2 == 0:
             soma.append(num)

@@ -20,13 +20,19 @@ def contador():
     n2 = int(input("Fim: "))
     n3 = int(input("Passo: "))
     print("-=" * 10)
-    
+    d= 1
+
     if n3 ==  0:
         n3 = 1
-    if n1 > n2 and n3 > 0:
-        n3 *= -1
+        
+    if n1 > n2:
+        d = -1
+        if n3 > 0:
+            n3 *= -1
+
+
     
-    for c in range(n1, n2 + 1, n3):
+    for c in range(n1, n2 + d, n3):
         print(f"{c} ")
         time.sleep(1)
 
