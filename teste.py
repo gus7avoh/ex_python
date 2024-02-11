@@ -1,12 +1,16 @@
-import pydoc
-from pygments import highlight
-from pygments.lexers import PythonLexer
-from pygments.formatters import TerminalFormatter
+def moeda(resp):
+    teste = float(resp)
+    return f'R${teste:.2f}'.replace('.', ',')
 
-while True:
-    funcao = input('\033[1;34m Função (Fim): \033[m').strip().lower()
-    if funcao == 'fim':
-        break
-    help_text = pydoc.render_doc(funcao)
-    colored_help = highlight(help_text, PythonLexer(), TerminalFormatter())
-    print(colored_help)
+
+def dobro(n):
+    """
+    Dobra o valor
+    :var n: Parametro para o calculo 
+    """
+    resp = n * 2
+    return resp
+
+n = float(input("Digite o preço: R$ "))
+
+print(f"O dobro do valor {moeda(n)}: {moeda(dobro(n))}")
