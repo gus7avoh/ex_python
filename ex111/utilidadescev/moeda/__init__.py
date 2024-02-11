@@ -51,4 +51,3 @@ def resumo(n = 0, aume = 1,  redu = 1):
     print(f"12% redução: ".ljust(25), f"{reduzir(n, redu, True)}")
     print()
 
-

@@ -1,5 +1,6 @@
-from click import echo,style
+
 def leiaInt(n):
+    from click import echo,style
     try:
         nInt = int(n)
         if (nInt % 1 == 0):
