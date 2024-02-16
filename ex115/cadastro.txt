@@ -1,0 +1,4 @@
+Nome: pedro                   Idade: 14
+Nome: gustavo                 Idade: 20
+Nome: nayara                  Idade: 19
+Nome: davidson                Idade: 41
